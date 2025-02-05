@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diabetic Diet</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <!-- Navigation Bar -->
+    <nav
+      class="navbar navbar-expand-lg  shadow-sm fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand animate__animated animate__fadeInLeft" href="#"
+          >Diabetic Diet</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active animate__animated animate__fadeInDown"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link animate__animated animate__fadeInDown"
+                href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link animate__animated animate__fadeInDown"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container my-5 py-3 flex-grow-1">
+      <h1 class="text-center mb-4 animate__animated animate__fadeIn">
+        Here's all you need
+      </h1>
+
+      <!-- Pills for Categories -->
+      <ul
+        class="nav nav-pills justify-content-center mb-4"
+        id="foodPills"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active animate__animated animate__fadeIn"
+            id="vegetables-pill"
+            data-bs-toggle="pill"
+            data-bs-target="#vegetables"
+            type="button"
+            role="tab"
+            aria-controls="vegetables"
+            aria-selected="true"
+          >
+            Vegetables
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link animate__animated animate__fadeIn"
+            id="fruits-pill"
+            data-bs-toggle="pill"
+            data-bs-target="#fruits"
+            type="button"
+            role="tab"
+            aria-controls="fruits"
+            aria-selected="false"
+          >
+            Fruits
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link animate__animated animate__fadeIn"
+            id="proteins-pill"
+            data-bs-toggle="pill"
+            data-bs-target="#proteins"
+            type="button"
+            role="tab"
+            aria-controls="proteins"
+            aria-selected="false"
+          >
+            Proteins
+          </button>
+        </li>
+      </ul>
+
+      <!-- Category Description -->
+      <div id="category-description" class="text-center mb-4">
+        <p class="lead">
+          Select a category to view foods good for diabetic patients.
+        </p>
+      </div>
+
+      <!-- Pill Content -->
+      <div class="tab-content" id="foodPillsContent">
+        <!-- Vegetables -->
+        <div
+          class="tab-pane fade show active"
+          id="vegetables"
+          role="tabpanel"
+          aria-labelledby="vegetables-pill"
+        >
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
+            id="vegetables-container"
+          ></div>
+        </div>
+        <!-- Fruits -->
+        <div
+          class="tab-pane fade"
+          id="fruits"
+          role="tabpanel"
+          aria-labelledby="fruits-pill"
+        >
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
+            id="fruits-container"
+          ></div>
+        </div>
+        <!-- Proteins -->
+        <div
+          class="tab-pane fade"
+          id="proteins"
+          role="tabpanel"
+          aria-labelledby="proteins-pill"
+        >
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
+            id="proteins-container"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart Section -->
+    <div class="container my-5">
+      <h2 class="text-center mb-4">Your Cart</h2>
+      <ul class="list-group" id="cart-items"></ul>
+    </div>
+
+    <!-- Footer -->
+    <footer class=" text-white text-center py-4 mt-auto shadow-sm">
+      <div class="container">
+        <p class="mb-2">Follow us on:</p>
+        <div class="social-links">
+          <a href="#" class="text-dark me-3"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-dark me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-dark me-3"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" class="text-dark"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p class="mt-3">&copy; 2023 Diabetic Diet. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and FontAwesome -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+      integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- 
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+></script>
+ -->

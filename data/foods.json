@@ -1,0 +1,228 @@
+{
+  "vegetables": {
+    "description": "Non-starchy vegetables are low in calories and carbohydrates, making them ideal for diabetic patients. They are rich in fiber, vitamins, and minerals, which help regulate blood sugar levels.",
+    "foods": [
+      {
+        "name": "Carrots",
+        "image": "",
+        "benefits": "Rich in beta-carotene, which supports eye health and helps regulate blood sugar.",
+        "sideEffects": "High consumption may temporarily tint the skin orange.",
+        "gi": 39
+      },
+      {
+        "name": "Cauliflower",
+        "image": "",
+        "benefits": "Low in carbohydrates and high in fiber. Supports digestion and weight management.",
+        "sideEffects": "May cause bloating or gas in some individuals.",
+        "gi": 15
+      },
+      {
+        "name": "Bell Peppers",
+        "image": "",
+        "benefits": "Rich in vitamin C and antioxidants. Helps boost immunity.",
+        "sideEffects": "Generally safe, but may cause mild allergies in some individuals.",
+        "gi": 15
+      },
+      {
+        "name": "Zucchini",
+        "image": "",
+        "benefits": "Low in calories and high in water content. Supports hydration and digestion.",
+        "sideEffects": "None known in moderation.",
+        "gi": 15
+      },
+      {
+        "name": "Asparagus",
+        "image": "",
+        "benefits": "Rich in folate and antioxidants. Helps reduce inflammation.",
+        "sideEffects": "Can cause a strong odor in urine due to asparagusic acid.",
+        "gi": 15
+      },
+      {
+        "name": "Brussels Sprouts",
+        "image": "",
+        "benefits": "High in fiber and vitamin K. Supports gut health and bone strength.",
+        "sideEffects": "May cause bloating or gas in sensitive individuals.",
+        "gi": 15
+      },
+      {
+        "name": "Cabbage",
+        "image": "",
+        "benefits": "Supports digestion and gut health. Rich in vitamin C.",
+        "sideEffects": "Excessive consumption may cause bloating.",
+        "gi": 10
+      },
+      {
+        "name": "Eggplant",
+        "image": "",
+        "benefits": "Rich in fiber and antioxidants. Helps lower blood sugar.",
+        "sideEffects": "Contains solanine, which may cause mild digestive issues in sensitive individuals.",
+        "gi": 15
+      },
+      {
+        "name": "Kale",
+        "image": "",
+        "benefits": "Loaded with vitamins and minerals. Helps reduce inflammation and supports heart health.",
+        "sideEffects": "Excessive consumption may interfere with thyroid function.",
+        "gi": 15
+      },
+      {
+        "name": "Tomatoes",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg",
+        "benefits": "Rich in lycopene, which supports heart health and reduces oxidative stress.",
+        "sideEffects": "May cause acid reflux in some individuals.",
+        "gi": 30
+      }
+    ]
+  },
+  "fruits": {
+    "description": "Fruits provide essential vitamins, minerals, and fiber. While they contain natural sugars, many have a low glycemic index and can be consumed in moderation.",
+    "foods": [
+      {
+        "name": "Berries",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Various_Berries.jpg",
+        "benefits": "High in antioxidants and fiber. Helps regulate blood sugar and supports heart health.",
+        "sideEffects": "None known in moderation.",
+        "gi": 25
+      },
+      {
+        "name": "Apples",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg",
+        "benefits": "Rich in fiber and antioxidants. Helps improve digestion and supports heart health.",
+        "sideEffects": "Excessive consumption may cause digestive issues due to high fiber.",
+        "gi": 36
+      },
+      {
+        "name": "Pears",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Nashi_pear.jpg",
+        "benefits": "Rich in fiber and vitamin C. Supports digestive health and boosts immunity.",
+        "sideEffects": "Excessive intake may cause bloating or stomach discomfort.",
+        "gi": 38
+      },
+      {
+        "name": "Oranges",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Orange-Fruit-Pieces.jpg",
+        "benefits": "High in vitamin C. Helps boost immunity and maintain hydration.",
+        "sideEffects": "May cause acid reflux in sensitive individuals.",
+        "gi": 43
+      },
+      {
+        "name": "Cherries",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Cherry_Stella444.jpg",
+        "benefits": "Rich in antioxidants and anti-inflammatory properties. Supports joint and heart health.",
+        "sideEffects": "Overconsumption may lead to digestive discomfort due to sorbitol content.",
+        "gi": 22
+      },
+      {
+        "name": "Peaches",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Peach_Fruit.jpg",
+        "benefits": "Rich in vitamins A and C. Supports skin health and digestion.",
+        "sideEffects": "May cause allergic reactions in sensitive individuals.",
+        "gi": 42
+      },
+      {
+        "name": "Plums",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Plums.jpg",
+        "benefits": "Good source of fiber and antioxidants. Helps regulate digestion.",
+        "sideEffects": "May cause mild laxative effects if consumed in excess.",
+        "gi": 40
+      },
+      {
+        "name": "Kiwi",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Kiwi_aka.jpg",
+        "benefits": "High in vitamin C and fiber. Supports digestion and immunity.",
+        "sideEffects": "May cause allergic reactions in some people.",
+        "gi": 50
+      },
+      {
+        "name": "Grapefruit",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Grapefruit-Whole-%26-Halved.jpg",
+        "benefits": "Low in calories and rich in vitamin C. Aids in weight management and heart health.",
+        "sideEffects": "Can interfere with certain medications.",
+        "gi": 25
+      },
+      {
+        "name": "Pomegranate",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Pomegranate_DSW.jpg",
+        "benefits": "Packed with antioxidants and vitamins. Supports heart health and reduces inflammation.",
+        "sideEffects": "May cause stomach upset if consumed in large quantities.",
+        "gi": 35
+      }
+    ]
+  },
+  "proteins": {
+    "description": "Proteins are essential for muscle repair and growth. Choose lean and plant-based proteins for better health.",
+    "foods": [
+      {
+        "name": "Chicken Breast",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Chicken_Breast.jpg",
+        "benefits": "High in protein and low in fat. Supports muscle growth and weight management.",
+        "sideEffects": "None known in moderation.",
+        "gi": 0
+      },
+      {
+        "name": "Tofu",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Tofu-Whole-Sliced.jpg",
+        "benefits": "Plant-based protein. Helps lower cholesterol and supports heart health.",
+        "sideEffects": "May cause bloating in some individuals.",
+        "gi": 15
+      },
+      {
+        "name": "Salmon",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Raw_Salmon.jpg",
+        "benefits": "Rich in omega-3 fatty acids. Supports brain and heart health.",
+        "sideEffects": "May contain mercury; limit intake for safety.",
+        "gi": 0
+      },
+      {
+        "name": "Lentils",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Lentils_Brown.jpg",
+        "benefits": "High in fiber and protein. Helps regulate blood sugar and digestion.",
+        "sideEffects": "May cause gas or bloating.",
+        "gi": 32
+      },
+      {
+        "name": "Eggs",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Boiled_eggs_2.jpg",
+        "benefits": "Rich in high-quality protein and essential vitamins. Supports brain function.",
+        "sideEffects": "High cholesterol; should be consumed in moderation.",
+        "gi": 0
+      },
+      {
+        "name": "Almonds",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Almonds_%28Prunus_dulcis%29.jpg",
+        "benefits": "Good source of plant protein and healthy fats. Helps in blood sugar control.",
+        "sideEffects": "May cause allergic reactions in some individuals.",
+        "gi": 15
+      },
+      {
+        "name": "Cottage Cheese",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Cottage_Cheese.jpg",
+        "benefits": "High in protein and calcium. Supports bone health and muscle recovery.",
+        "sideEffects": "May cause digestive issues in lactose-intolerant individuals.",
+        "gi": 27
+      },
+      {
+        "name": "Turkey",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Raw_turkey_breast.jpg",
+        "benefits": "Lean protein with low fat. Helps in muscle repair and immune function.",
+        "sideEffects": "Processed turkey may contain preservatives.",
+        "gi": 0
+      },
+      {
+        "name": "Greek Yogurt",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Greek_Yogurt.jpg",
+        "benefits": "Rich in probiotics and protein. Supports gut health and digestion.",
+        "sideEffects": "May contain added sugars in flavored varieties.",
+        "gi": 11
+      },
+      {
+        "name": "Quinoa",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/White_Quinoa.jpg",
+        "benefits": "Complete plant protein with all essential amino acids. Helps regulate blood sugar.",
+        "sideEffects": "May cause bloating in some individuals.",
+        "gi": 53
+      }
+    ]
+  }
+
+}
